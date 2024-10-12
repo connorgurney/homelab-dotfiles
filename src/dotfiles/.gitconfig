@@ -1,0 +1,19 @@
+[user]
+  name       = Connor Gurney
+  email      = me@connorgurney.me.uk
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOVimFsO4SGxHLomKTbyByqlhqddfPLFxWgeFVJKsKw6
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+
+[core]
+excludesFile = ~/.gitignore
+
+[init]
+  defaultBranch = main
+
+[commit]
+  gpgsign = true
